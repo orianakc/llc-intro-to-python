@@ -8,3 +8,5 @@ for row in csv_data:
     count += 1
 
 print("There are " + str(count) + " chapters")
+
+csv_file.close()

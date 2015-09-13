@@ -15,6 +15,9 @@ for chapter in chapters_data:
         # Print "Thank you [[Chapter Lead(s)]]!"
         print('Thank you, ' + chapter['Chapter Lead(s)'] + '!!!')
 
+# Don't forget to close your file when you're done!
+chapters.close()
+
 
 
 
